@@ -10,7 +10,198 @@
 </head>
 
 <body>
-  <div class="w-full">
+  <!-- NAVBAR -->
+  <div class="navbar bg-neutral shadow-sm flex">
+    <div class="flex flex-row justify-between items-center w-full">
+      <h1 class="text-xl font-bold text-white">Projeto Integrador 2025</h1>
+      <div class="flex flex-row justify-end gap-2">
+        <a class="btn btn-neutral text-xl" href="index.html">Home</a>
+        <a class="btn btn-neutral text-xl" href="questoes.html">Questões</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-col w-full">
+    <!-- HERO -->
+    <div class="hero bg-base-200">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <div class="flex flex-col w-full justify-end">
+            <h1 class="text-5xl font-bold">Prepare-se para o ENEM com René Descartes</h1>
+            <p class="py-6">
+              Explore questões cuidadosamente selecionadas que abordam o legado de René Descartes:
+              da Geometria Analítica à Filosofia Moderna. Uma jornada pelo pensamento cartesiano
+              que frequentemente aparece no ENEM.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACCORDION -->
+    <div class="join join-vertical bg-base-100 w-full">
+
+      <!-- MATEMÁTICA -->
+      <div class="collapse collapse-arrow join-item border-base-300 border">
+        <input type="radio" name="my-accordion-4" />
+        <div class="collapse-title font-semibold">Matemática</div>
+        <div class="collapse-content text-sm bg-gray-100">
+          <div class="flex flex-col gap-4 pt-4">
+
+            <!-- QUESTÃO 1 -->
+            <div class="card w-full bg-base-100 card-md shadow-sm">
+              <div class="card-body">
+                <!-- TÍTULO -->
+                <h2 class="card-title">Questão 1</h2>
+                <!-- CONTEÚDO DA QUESTÃO -->
+                <div class="flex flex-col gap-4">
+                  <p>Considere a função f(x) = x² - 4x + 3. O valor de f(2) é:</p>
+                  <!-- IMAGEM -->
+                  <div class="w-full flex flex-row justify-center">
+                    <img src="https://placehold.co/200x100/png" />
+                  </div>
+                  <!-- ALTERNATIVAS -->
+                  <div class="flex flex-col gap-2">
+
+                    <div>
+                      <input type="radio" id="questao-1-a" name="radio_questao_1" value="questao-1-a"
+                        class="radio radio-neutral" checked />
+                      <label for="questao-1-a">f(2) = 1</label>
+                    </div>
+
+                    <div>
+                      <input type="radio" id="questao-1-b" name="radio_questao_1" value="questao-1-b"
+                        class="radio radio-neutral" />
+                      <label for="questao-1-b">f(2) = 2</label>
+                    </div>
+
+                    <div>
+                      <input type="radio" id="questao-1-c" name="radio_questao_1" value="questao-1-c"
+                        class="radio radio-neutral" />
+                      <label for="questao-1-c">f(2) = 3</label>
+                    </div>
+
+                    <div>
+                      <input type="radio" id="questao-1-d" name="radio_questao_1" value="questao-1-d"
+                        class="radio radio-neutral" />
+                      <label for="questao-1-d">f(2) = 4</label>
+                    </div>
+
+                    <div>
+                      <input type="radio" id="questao-1-e" name="radio_questao_1" value="questao-1-e"
+                        class="radio radio-neutral" />
+                      <label for="questao-1-e">f(2) = 5</label>
+                    </div>
+
+                  </div>
+
+                  <div class="w-full flex flex-row justify-center">
+                    <button class="btn btn-wide w-full" onclick="modal_questao_1.showModal()">Exibir Resposta</button>
+                    <dialog id="modal_questao_1" class="modal">
+                      <div class="modal-box">
+                        <form method="dialog">
+                          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        </form>
+                        <h3 class="text-lg font-bold">Resposta</h3>
+                        <p class="py-4">Resposta é <span class="font-bold text-red-500">f(2) = 3</span></p>
+                      </div>
+                    </dialog>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- QUESTÃO 2 -->
+            <div class="card w-full bg-base-100 card-md shadow-sm">
+              <div class="card-body">
+                <!-- TÍTULO -->
+                <h2 class="card-title">Questão 2</h2>
+                <!-- CONTEÚDO DA QUESTÃO -->
+                <div class="flex flex-col gap-4">
+                  <p>ENUNCIADO</p>
+                  <!-- ALTERNATIVAS -->
+                  <div class="flex flex-col gap-2">
+
+                    <div>
+                      <input type="radio" id="questao-2-a" name="radio_questao_2" value="questao-2-a"
+                        class="radio radio-neutral" checked />
+                      <label for="questao-2-a">Huey</label>
+                    </div>
+
+                    <div>
+                      <input type="radio" id="questao-2-b" name="radio_questao_2" value="questao-2-b"
+                        class="radio radio-neutral" />
+                      <label for="questao-2-b">Dewey</label>
+                    </div>
+
+                  </div>
+
+                  <div class="w-full flex flex-row justify-center">
+                    <button class="btn btn-wide w-full" onclick="modal_questao_2.showModal()">Exibir Resposta</button>
+                    <dialog id="modal_questao_2" class="modal">
+                      <div class="modal-box">
+                        <form method="dialog">
+                          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        </form>
+                        <h3 class="text-lg font-bold">Resposta</h3>
+                        <p class="py-4">Resposta é <span class="font-bold text-red-500">Dewey</span></p>
+                      </div>
+                    </dialog>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- FILOSOFIA -->
+      <div class="collapse collapse-arrow join-item border-base-300 border">
+        <input type="radio" name="my-accordion-4" />
+        <div class="collapse-title font-semibold">Filosofia</div>
+        <div class="collapse-content text-sm bg-gray-100">
+
+        </div>
+      </div>
+
+      <!-- FÍSICA -->
+      <div class="collapse collapse-arrow join-item border-base-300 border">
+        <input type="radio" name="my-accordion-4" />
+        <div class="collapse-title font-semibold">Física</div>
+        <div class="collapse-content text-sm bg-gray-100">
+
+        </div>
+      </div>
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
+      <nav>
+        <h6 class="footer-title">Services</h6>
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Company</h6>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Legal</h6>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+    </footer>
+
+
   </div>
 </body>
 
