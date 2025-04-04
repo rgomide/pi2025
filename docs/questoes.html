@@ -110,13 +110,15 @@
   <script>
     // Template para uma questão
     function createQuestionTemplate(questao) {
+      const elementId = questao.id.toString().replace('.', '_');
+
       const alternativas = questao.alternativas.map((alt, index) => {
         const letter = String.fromCharCode(97 + index); // a, b, c, d, e
         return `
           <div>
-            <input type="radio" id="questao-${questao.id}-${letter}" name="radio_questao_${questao.id}" 
-              value="questao-${questao.id}-${letter}" class="radio radio-neutral" />
-            <label for="questao-${questao.id}-${letter}">${alt}</label>
+            <input type="radio" id="questao-${elementId}-${letter}" name="radio_questao_${elementId}" 
+              value="questao-${elementId}-${letter}" class="radio radio-neutral" />
+            <label for="questao-${elementId}-${letter}">${alt}</label>
           </div>
         `;
       }).join('');
@@ -134,8 +136,8 @@
                 ${alternativas}
               </div>
               <div class="w-full flex flex-row justify-center">
-                <button class="btn btn-wide w-full" onclick="modal_questao_${questao.id}.showModal()">Exibir Resposta</button>
-                <dialog id="modal_questao_${questao.id}" class="modal">
+                <button class="btn btn-wide w-full" onclick="modal_questao_${elementId}.showModal()">Exibir Resposta</button>
+                <dialog id="modal_questao_${elementId}" class="modal">
                   <div class="modal-box">
                     <form method="dialog">
                       <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>

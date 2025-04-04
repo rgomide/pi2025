@@ -15,7 +15,7 @@ const questoesMatematica = [
   {
     id: 1.1,
     enunciado: "Uma mola é solta da posição distendida conforme a figura. A figura à direita representa o gráfico da posição P (em cm) da massa m em função do tempo t (em segundo) em um sistema de coordenadas cartesianas. Esse movimento periódico é descrito por uma expressão do tipo P(t) = ± A cos (ωt) ou P(t) = ± A sen (ωt), em que A > 0 é a amplitude de deslocamento máximo e ω é a frequência, que se relaciona com o período T pela fórmula ω = 2π/T. Considere a ausência de quaisquer forças dissipativas. A expressão algébrica que representa as posições P(t) da massa m, ao longo do tempo, no gráfico, é",
-    imagem: "https://d2q576s0wzfxtl.cloudfront.net/2021/11/30044413/171.png",
+    imagem: "assets/img/questoes/1.1.png",
     alternativas: [
       "3 cos (2t)",
       "3 sen (2t)",
@@ -28,7 +28,7 @@ const questoesMatematica = [
   {
     id: 1.2,
     enunciado: "O mastro de uma bandeira foi instalado perpendicularmente ao solo em uma região plana. Devido aos fortes ventos, três cabos de aço, de mesmo comprimento, serão instalados para dar sustentação ao mastro. Cada cabo de aço ficará perfeitamente esticado, com uma extremidade num ponto P do mastro, a uma altura h do solo, e a outra extremidade, num ponto no chão. Os cabos de aço formam um ângulo a com o plano do chão. Por medida de segurança, há apenas três opções de instalação: Opção I: h = 11m e a = 30°, Opção II: h = 12m e a = 45°, Opção III: h = 18m e a = 60°. A opção a ser escolhida é aquela em que a medida dos cabos seja a menor possível. Qual será a medida, em metro, de cada um dos cabos a serem instalados?",
-    imagem: "https://d2q576s0wzfxtl.cloudfront.net/2023/12/04160908/a.png",
+    imagem: "assets/img/questoes/1.2.png",
     alternativas: [
       "22√3/3",
       "11√2",
