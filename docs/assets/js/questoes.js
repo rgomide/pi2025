@@ -10,7 +10,7 @@ const questoesMatematica = [
       "5",
       "7"
     ],
-    "resposta": "b) 3"
+    "resposta": "3"
   },
   {
     id: 1.1,
@@ -23,12 +23,12 @@ const questoesMatematica = [
       "6 cos (2t)",
       "e-6 sen (2t)"
     ],
-    "resposta": "a) 3 cos (2t)"
+    "resposta": "3 cos (2t)"
   },
   {
     id: 1.2,
     enunciado: "O mastro de uma bandeira foi instalado perpendicularmente ao solo em uma região plana. Devido aos fortes ventos, três cabos de aço, de mesmo comprimento, serão instalados para dar sustentação ao mastro. Cada cabo de aço ficará perfeitamente esticado, com uma extremidade num ponto P do mastro, a uma altura h do solo, e a outra extremidade, num ponto no chão. Os cabos de aço formam um ângulo a com o plano do chão. Por medida de segurança, há apenas três opções de instalação: Opção I: h = 11m e a = 30°, Opção II: h = 12m e a = 45°, Opção III: h = 18m e a = 60°. A opção a ser escolhida é aquela em que a medida dos cabos seja a menor possível. Qual será a medida, em metro, de cada um dos cabos a serem instalados?",
-    imagem: "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+    imagem: "https://d2q576s0wzfxtl.cloudfront.net/2023/12/04160908/a.png",
     alternativas: [
       "22√3/3",
       "11√2",
@@ -98,17 +98,18 @@ const questoesHistoria = [
   },
   {
     "id": 3.1,
-    "enunciado": "(Enem 2013) TEXTO I Há já algum tempo eu me apercebi de que, desde meus primeiros anos, recebera muitas falsas opiniões como verdadeiras, e de que aquilo que depois eu fundei em princípios tão mal assegurados não podia ser senão mui duvidoso e incerto. Era necessário tentar seriamente, uma vez em minha vida, desfazer-me de todas as opiniões a que até então dera crédito, e começar tudo novamente a fim de estabelecer um saber firme e inabalável. DESCARTES, R. Meditações concernentes à Primeira Filosofia. São Paulo: Abril Cultural, 1973 (adaptado). TEXTO II É o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida. SILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado) A exposição e a análise do projeto cartesiano indicam que, para viabilizar a reconstrução radical do conhecimento, deve-se",
+    "enunciado": "(Adaptado) A dúvida metódica proposta por René Descartes consiste em:",
     "imagem": "",
     "alternativas": [
-      "retomar o método da tradição para edificar a ciência com legitimidade.",
-      "questionar de forma ampla e profunda as antigas ideias e concepções.",
-      "investigar os conteúdos da consciência dos homens menos esclarecidos.",
-      "buscar uma via para eliminar da memória saberes antigos e ultrapassados.",
-      "encontrar ideias e pensamentos evidentes que dispensam ser questionados."
+      "Aceitar apenas as opiniões que foram amplamente validadas pela tradição.",
+      "Eliminar os sentidos como fontes de conhecimento confiáveis.",
+      "Questionar sistematicamente todas as crenças para fundamentar um saber sólido.",
+      "Reconhecer a intuição como o único caminho para alcançar a verdade.",
+      "Rejeitar a razão em prol das verdades reveladas pela fé."
     ],
-    "resposta": "questionar de forma ampla e profunda as antigas ideias e concepções."
-  },
+    "resposta": "Questionar sistematicamente todas as crenças para fundamentar um saber sólido."
+  }
+  ,
   {
     "id": 3.2,
     "enunciado": "(ENEM MEC/2015) Após ter examinado cuidadosamente todas as coisas, cumpre enfim concluir e ter por constante que esta proposição, eu sou, eu existo, é necessariamente verdadeira todas as vezes que a enuncio ou que a concebo em meu espírito.DESCARTES, R. Meditações. Pensadores. São Paulo: Abril Cultural, 1979.A proposição “eu sou, eu existo” corresponde a um dos momentos mais importantes na ruptura da filosofia do século XVII com os padrões da reflexão medieval, po",
