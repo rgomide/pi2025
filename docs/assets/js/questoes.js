@@ -43,35 +43,6 @@ const questoesFilosofia = [
   }
 ]
 
-const questoesSociologia = [
-  {
-    "id": 4,
-    "enunciado": "Como o pensamento cartesiano influenciou o desenvolvimento da ciência moderna?",
-    "imagem": "",
-    "alternativas": [
-      "Estabelecendo o método científico baseado em evidências",
-      "Negando qualquer forma de conhecimento científico",
-      "Priorizando apenas o conhecimento religioso",
-      "Rejeitando o uso da matemática",
-      "Defendendo o pensamento místico"
-    ],
-    "resposta": "Estabelecendo o método científico baseado em evidências"
-  },
-  {
-    "id": 5,
-    "enunciado": "Qual o impacto do racionalismo cartesiano na sociedade do século XVII?",
-    "imagem": "",
-    "alternativas": [
-      "Fortalecimento do pensamento científico e racional",
-      "Retorno ao pensamento medieval",
-      "Abandono completo da filosofia",
-      "Fortalecimento do misticismo",
-      "Rejeição total da matemática"
-    ],
-    "resposta": "Fortalecimento do pensamento científico e racional"
-  }
-]
-
 const questoesHistoria = [
   {
     "id": 6,
@@ -100,33 +71,3 @@ const questoesHistoria = [
     "resposta": "Discurso do Método"
   }
 ]
-
-const questoesFisica = [
-  {
-    "id": 8,
-    "enunciado": "Como a geometria analítica de Descartes contribuiu para a física moderna?",
-    "imagem": "",
-    "alternativas": [
-      "Permitindo a representação matemática de fenômenos físicos",
-      "Negando a existência de leis físicas",
-      "Eliminando o uso da matemática na física",
-      "Rejeitando o método experimental",
-      "Ignorando as leis do movimento"
-    ],
-    "resposta": "Permitindo a representação matemática de fenômenos físicos"
-  },
-  {
-    "id": 9,
-    "enunciado": "Qual conceito físico foi influenciado pelo sistema de coordenadas cartesianas?",
-    "imagem": "",
-    "alternativas": [
-      "A representação vetorial do movimento",
-      "A teoria do flogisto",
-      "O conceito de éter luminífero",
-      "A teoria geocêntrica",
-      "A alquimia medieval"
-    ],
-    "resposta": "A representação vetorial do movimento"
-  }
-]
-
