@@ -153,8 +153,6 @@
     document.addEventListener('DOMContentLoaded', () => {
       const containerMatematica = document.getElementById('questoes-matematica-container');
       const containerFilosofia = document.getElementById('questoes-filosofia-container');
-      const containerFisica = document.getElementById('questoes-fisica-container');
-      const containerSociologia = document.getElementById('questoes-sociologia-container');
       const containerHistoria = document.getElementById('questoes-historia-container');
 
       questoesMatematica.forEach(questao => {
@@ -165,18 +163,9 @@
         containerFilosofia.innerHTML += createQuestionTemplate(questao);
       });
 
-      questoesFisica.forEach(questao => {
-        containerFisica.innerHTML += createQuestionTemplate(questao);
-      });
-
-      questoesSociologia.forEach(questao => {
-        containerSociologia.innerHTML += createQuestionTemplate(questao);
-      });
-
       questoesHistoria.forEach(questao => {
         containerHistoria.innerHTML += createQuestionTemplate(questao);
       });
-
 
     });
   </script>
