@@ -1,16 +1,16 @@
 const questoesMatematica = [
   {
-    "id": 1.0,
-    "enunciado": "Na modelagem e no estudo de fenômenos periódicos, em geral, os modelos associados fazem uso de funções trigonométricas. Nesse sentido, considere um experimento realizado em laboratório, em que uma planta foi colocada em uma estufa, onde a temperatura é controlável. O experimento consiste em observar alterações nas características dessa planta ao ser submetida a variações de temperatura. Durante 24 horas, a temperatura T(x) da estufa variou de acordo com a função T(x) = 20 - 10sen(x) (π.(x/4)), em que x é medido em horas, variando no intervalo 0 ≤ x ≤ 24. Durante esse experimento, quantas vezes a temperatura na estufa atingiu o seu valor mínimo?",
-    "imagem": "",
-    "alternativas": [
+    id: 1.0,
+    enunciado: "Na modelagem e no estudo de fenômenos periódicos, em geral, os modelos associados fazem uso de funções trigonométricas. Nesse sentido, considere um experimento realizado em laboratório, em que uma planta foi colocada em uma estufa, onde a temperatura é controlável. O experimento consiste em observar alterações nas características dessa planta ao ser submetida a variações de temperatura. Durante 24 horas, a temperatura T(x) da estufa variou de acordo com a função T(x) = 20 - 10sen(x) (π.(x/4)), em que x é medido em horas, variando no intervalo 0 ≤ x ≤ 24. Durante esse experimento, quantas vezes a temperatura na estufa atingiu o seu valor mínimo?",
+    imagem: "",
+    alternativas: [
       "1",
       "3",
       "4",
       "5",
       "7"
     ],
-    "resposta": "3"
+    resposta: "3"
   },
   {
     id: 1.1,
@@ -23,7 +23,7 @@ const questoesMatematica = [
       "6 cos (2t)",
       "e-6 sen (2t)"
     ],
-    "resposta": "3 cos (2t)"
+    resposta: "3 cos (2t)"
   },
   {
     id: 1.2,
@@ -36,92 +36,92 @@ const questoesMatematica = [
       "12√3",
       "22",
     ],
-    "resposta": "11√2"
+    resposta: "11√2"
   }
 ]
 
 const questoesFilosofia = [
   {
-    "id": 2.0,
-    "enunciado": "(ENEM MEC/2014) É o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida. SILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado). Apesar de questionar os conceitos da tradição, a dúvida radical da filosofia cartesiana tem caráter positivo por contribuir para o (a)",
-    "imagem": "",
-    "alternativas": [
+    id: 2.0,
+    enunciado: "(ENEM MEC/2014) É o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida. SILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado). Apesar de questionar os conceitos da tradição, a dúvida radical da filosofia cartesiana tem caráter positivo por contribuir para o (a)",
+    imagem: "",
+    alternativas: [
       "fortalecimento dos preconceitos religiosos.",
       "surgimento do conhecimento inabalável.",
       "exaltação do pensamento clássico.",
       "recuperação dos antigos juízos.",
       "dissolução do saber científico."
     ],
-    "resposta": "surgimento do conhecimento inabalável."
+    resposta: "surgimento do conhecimento inabalável."
   },
   {
-    "id": 2.1,
-    "enunciado": "(ENEM MEC/2015) Após ter examinado cuidadosamente todas as coisas, cumpre enfim concluir e ter por constante que esta proposição, eu sou, eu existo, é necessariamente verdadeira todas as vezes que a enuncio ou que a concebo em meu espírito. DESCARTES, R. Meditações. Pensadores. São Paulo: Abril Cultural, 1979. A proposição “eu sou, eu existo” corresponde a um dos momentos mais importantes na ruptura da filosofia do século XVII com os padrões da reflexão medieval, por",
-    "imagem": "",
-    "alternativas": [
+    id: 2.1,
+    enunciado: "(ENEM MEC/2015) Após ter examinado cuidadosamente todas as coisas, cumpre enfim concluir e ter por constante que esta proposição, eu sou, eu existo, é necessariamente verdadeira todas as vezes que a enuncio ou que a concebo em meu espírito. DESCARTES, R. Meditações. Pensadores. São Paulo: Abril Cultural, 1979. A proposição “eu sou, eu existo” corresponde a um dos momentos mais importantes na ruptura da filosofia do século XVII com os padrões da reflexão medieval, por",
+    imagem: "",
+    alternativas: [
       "estabelecer o ceticismo como opção legítima.",
       "utilizar silogismos linguísticos como prova ontológica.",
       "inaugurar a posição teórica conhecida como empirismo.",
       "estabelecer um princípio indubitável para o conhecimento.",
       "questionar a relação entre a filosofia e o tema da existência de Deus."
     ],
-    "resposta": "estabelecer um princípio indubitável para o conhecimento."
+    resposta: "estabelecer um princípio indubitável para o conhecimento."
   },
   {
-    "id": 2.2,
-    "enunciado": "(ENEM 2013) TEXTO I  Há já algum tempo eu me apercebi de que, desde meus primeiros anos, recebera muitas falsas opiniões como verdadeiras, e de que aquilo que depois eu fundei em princípios tão mal assegurados não podia ser senão mui duvidoso e incerto. Era necessário tentar seriamente, uma vez em minha vida, desfazer-me de todas as opiniões a que até então dera crédito, e começar tudo novamente a fim de estabelecer um saber firme e inabalável. DESCARTES, R. Meditações concernentes à Primeira Filosofia. São Paulo: Abril Cultural, 1973 (adaptado). TEXTO II É o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida. SILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado) A exposição e a análise do projeto cartesiano indicam que, para viabilizar a reconstrução radical do conhecimento, deve-se",
-    "imagem": "",
-    "alternativas": [
+    id: 2.2,
+    enunciado: "(ENEM 2013) TEXTO I  Há já algum tempo eu me apercebi de que, desde meus primeiros anos, recebera muitas falsas opiniões como verdadeiras, e de que aquilo que depois eu fundei em princípios tão mal assegurados não podia ser senão mui duvidoso e incerto. Era necessário tentar seriamente, uma vez em minha vida, desfazer-me de todas as opiniões a que até então dera crédito, e começar tudo novamente a fim de estabelecer um saber firme e inabalável. DESCARTES, R. Meditações concernentes à Primeira Filosofia. São Paulo: Abril Cultural, 1973 (adaptado). TEXTO II É o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida. SILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado) A exposição e a análise do projeto cartesiano indicam que, para viabilizar a reconstrução radical do conhecimento, deve-se",
+    imagem: "",
+    alternativas: [
       "retomar o método da tradição para edificar a ciência com legitimidade.",
       "questionar de forma ampla e profunda as antigas ideias e concepções.",
       "investigar os conteúdos da consciência dos homens menos esclarecidos.",
       "buscar uma via para eliminar da memória saberes antigos e ultrapassados.",
       "encontrar ideias e pensamentos evidentes que dispensam ser questionados."
     ],
-    "resposta": "questionar de forma ampla e profunda as antigas ideias e concepções."
+    resposta: "questionar de forma ampla e profunda as antigas ideias e concepções."
   }
 ]
 
 const questoesHistoria = [
   {
-    "id": 3.0,
-    "enunciado": "(ENEM MEC/2014) É o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida. SILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado). Apesar de questionar os conceitos da tradição, a dúvida radical da filosofia cartesiana tem caráter positivo por contribuir para o (a)",
-    "imagem": "",
-    "alternativas": [
+    id: 3.0,
+    enunciado: "(ENEM MEC/2014) É o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida. SILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado). Apesar de questionar os conceitos da tradição, a dúvida radical da filosofia cartesiana tem caráter positivo por contribuir para o (a)",
+    imagem: "",
+    alternativas: [
       "fortalecimento dos preconceitos religiosos.",
       "surgimento do conhecimento inabalável.",
       "exaltação do pensamento clássico.",
       "recuperação dos antigos juízos.",
       "dissolução do saber científico."
     ],
-    "resposta": "recuperação dos antigos juízos."
+    resposta: "recuperação dos antigos juízos."
   },
   {
-    "id": 3.1,
-    "enunciado": "(Adaptado) A dúvida metódica proposta por René Descartes consiste em:",
-    "imagem": "",
-    "alternativas": [
+    id: 3.1,
+    enunciado: "(Adaptado) A dúvida metódica proposta por René Descartes consiste em:",
+    imagem: "",
+    alternativas: [
       "Aceitar apenas as opiniões que foram amplamente validadas pela tradição.",
       "Eliminar os sentidos como fontes de conhecimento confiáveis.",
       "Questionar sistematicamente todas as crenças para fundamentar um saber sólido.",
       "Reconhecer a intuição como o único caminho para alcançar a verdade.",
       "Rejeitar a razão em prol das verdades reveladas pela fé."
     ],
-    "resposta": "Questionar sistematicamente todas as crenças para fundamentar um saber sólido."
+    resposta: "Questionar sistematicamente todas as crenças para fundamentar um saber sólido."
   }
   ,
   {
-    "id": 3.2,
-    "enunciado": "(ENEM MEC/2015) Após ter examinado cuidadosamente todas as coisas, cumpre enfim concluir e ter por constante que esta proposição, eu sou, eu existo, é necessariamente verdadeira todas as vezes que a enuncio ou que a concebo em meu espírito.DESCARTES, R. Meditações. Pensadores. São Paulo: Abril Cultural, 1979.A proposição “eu sou, eu existo” corresponde a um dos momentos mais importantes na ruptura da filosofia do século XVII com os padrões da reflexão medieval, po",
-    "imagem": "",
-    "alternativas": [
+    id: 3.2,
+    enunciado: "(ENEM MEC/2015) Após ter examinado cuidadosamente todas as coisas, cumpre enfim concluir e ter por constante que esta proposição, eu sou, eu existo, é necessariamente verdadeira todas as vezes que a enuncio ou que a concebo em meu espírito.DESCARTES, R. Meditações. Pensadores. São Paulo: Abril Cultural, 1979.A proposição “eu sou, eu existo” corresponde a um dos momentos mais importantes na ruptura da filosofia do século XVII com os padrões da reflexão medieval, po",
+    imagem: "",
+    alternativas: [
       "estabelecer o ceticismo como opção legítima.",
       "utilizar silogismos linguísticos como prova ontológica.",
       "inaugurar a posição teórica conhecida como empirismo.",
       "estabelecer um princípio indubitável para o conhecimento.",
       "questionar a relação entre a filosofia e o tema da existência de Deus."
     ],
-    "resposta": "utilizar silogismos linguísticos como prova ontológica."
+    resposta: "utilizar silogismos linguísticos como prova ontológica."
   }
 ]
 
